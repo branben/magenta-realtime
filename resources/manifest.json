@@ -1,5 +1,10 @@
 {
   "soundfonts": {
+    "expressive_snes": {
+      "path": "soundfonts/ExpressiveSNES.sf2",
+      "license": "CC-BY 3.0 (attribution, commercial OK)",
+      "description": "High-quality GM SNES soundfont (10 months of work, clean samples)"
+    },
     "snes_gm": {
       "path": "soundfonts/SNES_GM.sf2",
       "license": "Free",
@@ -25,15 +30,35 @@
       "license": "Free (credit The Eighth Bit)",
       "description": "Most popular NES soundfont (130K+ downloads, game samples)"
     },
+    "nes_8bit_fixed": {
+      "path": "soundfonts/8-Bit_Sounds.sf2",
+      "license": "CC-BY 3.0 (attribution, commercial OK)",
+      "description": "NES waveforms: square, sawtooth, triangle, noise \u2014 GM compatible"
+    },
+    "famicom_multichip": {
+      "path": "soundfonts/The_Normalized_Famicom_Multichip_Bank_V2G.sf2",
+      "license": "CC-BY 3.0 (attribution, commercial OK)",
+      "description": "NES with expansion chips (FDS, N163, VRC7, MMC5) \u2014 deepest NES palette"
+    },
     "genesis_genesisf": {
       "path": "soundfonts/Megadrive_SoundFount.sf2",
       "license": "CC-BY 3.0 (attribution, commercial OK)",
       "description": "Sega Genesis/Megadrive FM synthesis soundfont (14K+ downloads)"
     },
+    "genesis_ym2612": {
+      "path": "soundfonts/YM2612.sf2",
+      "license": "Gray area (community compiled)",
+      "description": "YM2612 FM chip soundfont \u2014 authentic Genesis lead/bass"
+    },
     "genesis_genesisonic": {
       "path": "soundfonts/Megadrive_SoundFount.sf2",
       "license": "CC-BY 3.0 (attribution, commercial OK)",
       "description": "Sonic 1/2/3&K instruments (playful, bright Genesis character)"
+    },
+    "chiptune_v4": {
+      "path": "soundfonts/chiptune_soundfont_4.0.sf2",
+      "license": "Free",
+      "description": "GM/GS/XG-compatible chiptune soundfont (39K+ downloads, clean & melodic)"
     },
     "generaluser_gs": {
       "path": "soundfonts/GeneralUser-GS.sf2",
