@@ -23,3 +23,10 @@ AGENTS.md
 .idea
 .vscode/*.json
 *.code-workspace
+
+# large binaries (soundfonts, rendered WAVs)
+resources/soundfonts/
+resources/presets/
+
+# agent workspace
+.omo/

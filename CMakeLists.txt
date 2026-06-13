@@ -14,6 +14,8 @@
 
 cmake_minimum_required(VERSION 3.27)
 
+set(CMAKE_POLICY_VERSION_MINIMUM 3.5)
+
 set(CMAKE_OSX_DEPLOYMENT_TARGET "14.0" CACHE STRING "Minimum OS X deployment version" FORCE)
 
 project(MagentaRT LANGUAGES C CXX OBJCXX)
@@ -246,3 +248,4 @@ add_subdirectory(examples/hello_mrt2)
 add_subdirectory(examples/max)
 add_subdirectory(examples/pd)
 add_subdirectory(examples/sc)
+add_subdirectory(examples/mrt2/vst3)

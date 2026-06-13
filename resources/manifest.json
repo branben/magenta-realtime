@@ -1,0 +1,246 @@
+{
+  "soundfonts": {
+    "snes_gm": {
+      "path": "soundfonts/SNES_GM.sf2",
+      "license": "Free",
+      "description": "Super Nintendo GM soundfont (dotsarecool, 95K+ downloads)"
+    },
+    "super_mario_snes": {
+      "path": "soundfonts/Super_Mario_SNES_Soundfont.sf2",
+      "license": "Gray area (game samples, community compiled)",
+      "description": "Samples from Mario World, Kart, RPG, DKC \u2014 broad SNES palette"
+    },
+    "dkc2": {
+      "path": "soundfonts/Donkey Kong Country 2012.sf2",
+      "license": "Free",
+      "description": "Donkey Kong Country 2 soundfont (tropical, bright) \u2014 uses DKC 2012 from collection"
+    },
+    "ff6": {
+      "path": "soundfonts/FinalFantasyVI.sf2",
+      "license": "Gray area (mirror from williamkage.com)",
+      "description": "Final Fantasy 6 soundfont (orchestral, dramatic)"
+    },
+    "nes_8bitsf": {
+      "path": "soundfonts/NES_Soundfont.SF2",
+      "license": "Free (credit The Eighth Bit)",
+      "description": "Most popular NES soundfont (130K+ downloads, game samples)"
+    },
+    "genesis_genesisf": {
+      "path": "soundfonts/Megadrive_SoundFount.sf2",
+      "license": "CC-BY 3.0 (attribution, commercial OK)",
+      "description": "Sega Genesis/Megadrive FM synthesis soundfont (14K+ downloads)"
+    },
+    "genesis_genesisonic": {
+      "path": "soundfonts/Megadrive_SoundFount.sf2",
+      "license": "CC-BY 3.0 (attribution, commercial OK)",
+      "description": "Sonic 1/2/3&K instruments (playful, bright Genesis character)"
+    },
+    "generaluser_gs": {
+      "path": "soundfonts/GeneralUser-GS.sf2",
+      "license": "Free for any use (no attribution required)",
+      "description": "GeneralUser GS 2.02 \u2014 balanced GM/GS baseline, detailed programming (S. Christian Collins)"
+    }
+  },
+  "presets": {
+    "snes_rpg": {
+      "name": "SNES RPG",
+      "description": "SNES-style RPG sound (piano, strings, flute, oboe)",
+      "soundfont": "expressive_snes",
+      "programs": [
+        0,
+        48,
+        73,
+        68
+      ]
+    },
+    "snes_action": {
+      "name": "SNES Action",
+      "description": "SNES-style action game sound (brass, synth lead, drums)",
+      "soundfont": "snes_gm",
+      "programs": [
+        56,
+        81,
+        128
+      ]
+    },
+    "snes_square_lead": {
+      "name": "SNES Square Lead",
+      "description": "Classic SNES square wave lead (Star Fox, Final Fantasy)",
+      "soundfont": "snes_gm",
+      "programs": [
+        80,
+        81
+      ]
+    },
+    "snes_pad": {
+      "name": "SNES Pad",
+      "description": "Warm SNES synth pad (Secret of Mana, Chrono Trigger)",
+      "soundfont": "expressive_snes",
+      "programs": [
+        88,
+        89,
+        90
+      ]
+    },
+    "dkc2_adventure": {
+      "name": "DKC2 Adventure",
+      "description": "Donkey Kong Country 2 timbre (bright, tropical)",
+      "soundfont": "dkc2",
+      "programs": [
+        0,
+        24,
+        73
+      ]
+    },
+    "ff6_epic": {
+      "name": "FF6 Epic",
+      "description": "Final Fantasy 6 timbre (orchestral, dramatic)",
+      "soundfont": "ff6",
+      "programs": [
+        0,
+        48,
+        56,
+        44
+      ]
+    },
+    "ff6_organ": {
+      "name": "FF6 Organ",
+      "description": "FF6 church organ timbre (dramatic, gothic)",
+      "soundfont": "ff6",
+      "programs": [
+        16,
+        17,
+        18
+      ]
+    },
+    "nes_pulse_lead": {
+      "name": "NES Pulse Lead",
+      "description": "NES 25% pulse wave lead (Mega Man, Castlevania)",
+      "soundfont": "nes_8bitsf",
+      "programs": [
+        80,
+        81
+      ]
+    },
+    "nes_triangle_bass": {
+      "name": "NES Triangle Bass",
+      "description": "NES triangle wave bass (deep, round)",
+      "soundfont": "nes_8bitsf",
+      "programs": [
+        32,
+        33
+      ]
+    },
+    "nes_noise_perc": {
+      "name": "NES Noise Perc",
+      "description": "NES noise channel percussion (crunchy, metallic)",
+      "soundfont": "nes_8bit_fixed",
+      "programs": [
+        115,
+        116,
+        117
+      ]
+    },
+    "nes_waveforms": {
+      "name": "NES Waveforms",
+      "description": "Pure NES waveforms (square, saw, triangle, noise)",
+      "soundfont": "nes_8bit_fixed",
+      "programs": [
+        80,
+        81,
+        73,
+        127
+      ]
+    },
+    "genesis_fm_lead": {
+      "name": "Genesis FM Lead",
+      "description": "Genesis FM synthesis lead (bright, metallic)",
+      "soundfont": "genesis_genesisf",
+      "programs": [
+        80,
+        81,
+        82
+      ]
+    },
+    "genesis_fm_bass": {
+      "name": "Genesis FM Bass",
+      "description": "Genesis FM bass (fat, punchy \u2014 Sonic, Streets of Rage)",
+      "soundfont": "genesis_genesisf",
+      "programs": [
+        32,
+        33,
+        34
+      ]
+    },
+    "genesis_ym2612_chip": {
+      "name": "Genesis YM2612 Chip",
+      "description": "Raw YM2612 FM chip tones (authentic Genesis hardware)",
+      "soundfont": "genesis_ym2612",
+      "programs": [
+        0,
+        16,
+        56,
+        80
+      ]
+    },
+    "genesis_sonic_bright": {
+      "name": "GenesiSonic Bright",
+      "description": "Sonic-style bright Genesis timbre (playful, bouncy)",
+      "soundfont": "genesis_genesisonic",
+      "programs": [
+        0,
+        24,
+        56,
+        80
+      ]
+    },
+    "chiptune_melodic": {
+      "name": "Chiptune Melodic",
+      "description": "Clean melodic chiptune (GM/GS/XG compatible, 39K+ downloads)",
+      "soundfont": "chiptune_v4",
+      "programs": [
+        0,
+        48,
+        56,
+        80,
+        88
+      ]
+    },
+    "chiptune_square": {
+      "name": "Chiptune Square",
+      "description": "Square wave chiptune lead (classic 8-bit game sound)",
+      "soundfont": "chiptune_v4",
+      "programs": [
+        80,
+        81,
+        82,
+        83
+      ]
+    },
+    "pico8_fantasy": {
+      "name": "Pico-8 Fantasy",
+      "description": "Pico-8 fantasy console sound (4-channel, tiny, crunchy)",
+      "soundfont": "pico8_sf",
+      "programs": [
+        0,
+        80,
+        88,
+        128
+      ]
+    },
+    "gm_baseline": {
+      "name": "GM Baseline",
+      "description": "GeneralUser GS \u2014 balanced GM baseline for A/B comparison",
+      "soundfont": "generaluser_gs",
+      "programs": [
+        0,
+        24,
+        48,
+        56,
+        73,
+        80,
+        88
+      ]
+    }
+  }
+}
